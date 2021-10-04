@@ -20,7 +20,7 @@ Here, we need to use the google natural language API so we need to activate this
 - Click "ENABLE APIS AND SERVICES". Enter "Google Cloud Natural Language API" in the search box to search and find the required API. Then, we select the API and double-click, select "Enable" in the opened interface.
 
 ## Set up authentication/ Create credentials
-Any client application that uses the API must be authenticated and granted access to the requested resources. This section describes important authentication concepts and provides steps for setting it up.<\br>
+Any client application that uses the API must be authenticated and granted access to the requested resources. This section describes important authentication concepts and provides steps for setting it up.</br>
 There are multiple options for authentication, but it is recommended that you use service accounts for authentication and access control. 
 - In the cloud console, we go to the 'Create service account' page and select a project.
 - In 'Service account name' field we enter a name. Then we can add a brief description of the account.
