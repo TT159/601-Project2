@@ -32,6 +32,7 @@ Use the service account key file in your environment. This variable only applies
 - First method. Computer-->Right click "Properties"-->Advanced System Settings-->New-->GOOGLE_API_KEY:Key_Path
 - Second method. For windows, we can use following command in command prompt.
 > set GOOGLE_API_KEY=Key_Path.</br>
+
 Replace KEY_PATH with the path of the JSON file that contains your service account key.
 
 ## Install and initialize the Cloud SDK
