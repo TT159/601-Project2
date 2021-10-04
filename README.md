@@ -28,3 +28,20 @@ There are multiple options for authentication, but it is recommended that you us
 - Click 'Keys'. We choose create a new key, then the information of the key will be store in a JSON file and download to your computer.
 
 ## Configure local environment variables
+Use the service account key file in your environment. This variable only applies to your current shell session, so if you open a new session, set the variable again.
+- First method. Computer-->Right click "Properties"-->Advanced System Settings-->New-->GOOGLE_API_KEY:Key_Path
+- Second method. For windows, we can use following command in command prompt.
+> set GOOGLE_API_KEY=Key_Path.</br>
+Replace KEY_PATH with the path of the JSON file that contains your service account key.
+
+## Install and initialize the Cloud SDK
+If you plan to use the Natural Language API, you need to install and initialize the Cloud SDK. Cloud SDK is a set of tools that you can use to manage resources and applications hosted on Google Cloud.
+Here is the official document you can follow:
+> https://cloud.google.com/sdk/docs/install</br>
+- After installing the Cloud SDK, we can open the 'Google Cloud SDK Shell' and use the following command to login and test the authentication.
+> gcloud auth application-default login
+> gcloud auth application-default print-access-token </br>
+
+## Run the test script
+Above all, we can download some NLP test python scripts and run them in our computer.
+In my project, I test a script which analyzes entities in a string. I upload the code named 'ttstring.py'. Also I upload the result of my test.
