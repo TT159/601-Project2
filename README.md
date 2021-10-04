@@ -39,7 +39,7 @@ If you plan to use the Natural Language API, you need to install and initialize 
 Here is the official document you can follow:
 > https://cloud.google.com/sdk/docs/install</br>
 - After installing the Cloud SDK, we can open the 'Google Cloud SDK Shell' and use the following command to login and test the authentication.
-> gcloud auth application-default login
+> gcloud auth application-default login </br>
 > gcloud auth application-default print-access-token </br>
 
 ## Run the test script
