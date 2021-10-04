@@ -2,7 +2,6 @@
 
 This is a NLP test trail. In this project, we try to use the google natural language API to analyize some entities.
 
-# Preparation
 ## Deploy Google Cloud Platform (GCP)
 First we need a account for GCP. We can easily get a google cloud platform account with our google account. Then you can create your first project on GCP.
 
