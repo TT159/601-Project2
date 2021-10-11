@@ -62,5 +62,6 @@ In addition, I think the basic user story is to collect the tweets of uesers and
 ## Modular design 
 For modular design, I think it can be composed with several models: input module, authorization and authentication module, storage module, analyse module and output module. First, we need to use Twitter API to collect tweets data as our input and in this step, we need an authorization and authentication module to check the credentials of our users in order to pretect the privacy. Then, we need to store this data. For instance, we can store it in a JSON file or in other forms. After this, it is time to analyze the data and we use Googel NLP API to try to find out the potential emotion conveyed by the tweets. Finally, we conclude a result of the emotion as our output to our users. 
 
-
+# Completion
+Now we try to complete this function with some simple codes. To analyze entity sentiment in a Cloud Storage file, we use Twiiter API and Google NLP API. 
 
