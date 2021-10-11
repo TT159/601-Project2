@@ -64,4 +64,5 @@ For modular design, I think it can be composed with several models: input module
 
 # Completion
 Now we try to complete this function with some simple codes. To analyze entity sentiment in a Cloud Storage file, we use Twiiter API and Google NLP API. 
-
+- First, we use Twitter API to collect data and store data in JSON file. This part is completed by CollectData.py
+- Then, we use Google NLP API to complete sentiment analysis. Read the data file and analyze it. This part is completed by NlpApi.py 
